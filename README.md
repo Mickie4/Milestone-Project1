@@ -24,11 +24,9 @@ Here are some of the user stories we have gathered:
 
 (please refer to the repository for all the PDF files that showcast the  mockups)
 
-Mobile Mockup View:
+Desktop Mockup View:
 
-![landing page](/mockups/mobile.png)
-
-
+<iframe src="https://giphy.com/embed/l0F0cZ2ZvEVtMhpevQ" width="384" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/l0F0cZ2ZvEVtMhpevQ">via GIPHY</a></p>
 
 * * * 
 Tablet View:
