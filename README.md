@@ -28,15 +28,12 @@ Here are some of the user stories we have gathered:
 
 Desktop & Tablet Mockup View:
 -------------
-
-
-<iframe src="https://giphy.com/embed/l0F0cZ2ZvEVtMhpevQ" width="384" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/l0F0cZ2ZvEVtMhpevQ">via GIPHY</a></p>
+![](desktop-gif.gif)
 
 
 Mobile View:
 -------------
-
-<iframe src="https://giphy.com/embed/L0YqiTvbslxN7ZZESP" width="222" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/L0YqiTvbslxN7ZZESP">via GIPHY</a></p>
+![](mobile-gif.gif)
 
 
 
