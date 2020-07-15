@@ -28,16 +28,12 @@ Here are some of the user stories we have gathered:
 
 Desktop & Tablet Mockup View:
 -------------
-
-
-<iframe src="https://giphy.com/embed/l0F0cZ2ZvEVtMhpevQ" width="384" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/l0F0cZ2ZvEVtMhpevQ">via GIPHY</a></p>
+![](desktop-gif.gif)
 
 
 Mobile View:
 -------------
-
-<iframe src="https://giphy.com/embed/L0YqiTvbslxN7ZZESP" width="222" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/L0YqiTvbslxN7ZZESP">via GIPHY</a></p>
-
+![](mobile-gif.gif)
 
 
 ## Features
@@ -46,24 +42,20 @@ Mobile View:
 
 •	An “About Us” section to present a brief explanation on how the concept was thought out and what the website offers. 
 
-•	A “subscribe to our Newsletter” section to prompt visitors to get on the mailing list for notifications when news articles are released. 
+•	A Portraits section for visitors to get to view Valentina's work
 
-•	There will be a section to meet the team of writers – this is to create a more personal feeling for visitors and to help the brand’s credibility –.
+•	A film section with a clip from a project that Valentina participated in. 
 
-•	An index of topics filled with articles that have the option to be shared directly to the visitor’s social media profiles which will help to expand the community of followers and a button to download a PFD copy of the article for those who wish to store the information. 
+•	A contact form, buisness details and a map for customers to visit the studio.
 
-•	A contact us form for visitors to send in their questions and suggestions. 
-
-This is what’s on the table for the present production release and in the future
+•   Other work page where Valentina advertises all the other kinds of photography she can do
 
 
 ### Features Left to Implement
 
 •	The option to change the content into a different language (Spanish)
-•	A “top stories” section between the about us section and topics
-•	Expand the topics section
-•	An events section for advertising all kinds of gatherings happening within the community. 
-•	A lunar calendar with appropriate suggestions of rituals and celebrations.
+•	A section to register for the Newsletter
+•	A booking form
 
 
 ## Technologies Used
@@ -74,6 +66,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - I made the mockups with this program https://www.sketch.com/
 - Boostrap 
     - I used this framework to build the website https://getbootstrap.com/
+- CSS & HTML
+    - Since this was an only frontend project these are the two building blocks I used.
 
 
 ## Testing
