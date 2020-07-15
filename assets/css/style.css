@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Architects+Daughter&family=Comfortaa:wght@300&family=Homemade+Apple&display=swap');
 
+body {
+   background-color: #FBFFFE;
+}
+
 /* landing page /*/
 .logo-wrap > H1 {
     font-family: 'Abril Fatface', cursive;
@@ -65,3 +69,6 @@ padding: 10px;
     background: url(assets/images/background-image.png) no-repeat;
     background-size: cover; 
 }
+
+/* NAVBAR */ 
+
