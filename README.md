@@ -34,6 +34,10 @@ Desktop & Tablet Mockup View:
 Mobile View:
 -------------
 ![](mobile-gif.gif)
+<<<<<<< HEAD
+=======
+
+>>>>>>> f4fbf4abc3661fb72206c42f7602af3243f934bd
 
 
 ## Features
