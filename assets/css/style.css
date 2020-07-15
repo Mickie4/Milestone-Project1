@@ -21,6 +21,14 @@
     text-decoration: none;
 }
 
+.enter-sign > a:hover{
+    color: #EF233C;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
 .media-links {
     padding-right: 100px;
 }
@@ -29,6 +37,15 @@
 font-size: 35px;
 color: #EF233C;
 padding: 10px;
+
+}
+
+.media-links > a:hover {
+    color: #F1D302;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 
 }
 
