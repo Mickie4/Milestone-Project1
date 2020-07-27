@@ -71,4 +71,15 @@ padding: 10px;
 }
 
 /* NAVBAR */ 
+ .navbar-brand .nav-logo {
+    font-family: 'Homemade Apple', cursive;
+}
 
+/*PROFILE AND BIO SECTION*/
+
+.text-section {
+    display: inline-block;
+}
+.bio-section > h2 {
+    font-family: 'Architects Daughter';
+}

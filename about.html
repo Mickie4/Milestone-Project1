@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Architects+Daughter&family=Comfortaa&family=Homemade+Apple&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Architects+Daughter&family=Comfortaa&family=Homemade+Apple&display=swap">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
@@ -14,27 +14,53 @@
 </head>
 <body>
 <!--Navigation Bar -->
-<nav class="navbar navbar-expand-md fixed-top">
 
-<a class="navbar-brand navbar-text">VALENTINA FERRETTI</a>
+<nav class="navbar navbar-expand-lg bg-transparent">
+	<a class="navbar-brand nav-logo" href="index.html">VALENTINA FERRETTI</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+	<span class="navbar-toggler-icon"></span>
 
-<ul class="navbar-nav">
-<li class="nav-item">
-<a class="nav-link px-3" href="#">About</a>
-</li><li class="nav-item">
-<a class="nav-link px-3" href="#">Portraiture</a>
-</li>
-<li class="nav-item">
-<a class="nav-link px-3" href="#">Film</a>
-</li>
-<li class="nav-item">
-<a class="nav-link px-3" href="#">Other Work</a>
-</li>
-<li class="nav-item">
-<a class="nav-link px-3" href="#">Contact</a>
-</li>
-</ul>
+	<div class="collapse navbar-collapse" id="navbarContent">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="#">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Portraiture</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Film</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Other Work</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Contact</a>
+			</li>
+		</ul>
+	</div>
 </nav>
+<!--Navigation Bar Ends -->
+<!--Profile Picture and Bio section-->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-6">
+			<img src="/assets/images/profile-pic.png" class="rounded img-fluid" alt="Profile Picture">
+</div>
+			<div class="col-6">
+				<div class="bio-section">
+					<h2>Welcome to my studio</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quis suscipit fugit distinctio
+						ab, porro sunt, magni veniam nostrum quaerat ut ratione pariatur deleniti obcaecati doloremque
+						dignissimos nam voluptatum. Voluptatem.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus delectus maxime corporis ut commodi, facere, odit culpa excepturi fugit ex quidem. Veritatis accusantium consectetur suscipit incidunt sit ratione et doloremque?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim laboriosam illo, aliquid eveniet, unde voluptatem assumenda, sequi officia nobis quae modi illum ipsa rerum iste nam cupiditate perferendis. Ducimus, qui.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--Profile Picture and Bio section Ends-->
+
 
     
 </body>
