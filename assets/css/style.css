@@ -71,8 +71,8 @@ padding: 10px;
 }
 
 /* NAVBAR */ 
-.dark-blue-text {
-color: #0A38F5;
+#navbarContent > a {
+color: #050505;
 }
  
 /*PROFILE AND BIO SECTION*/
