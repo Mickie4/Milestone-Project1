@@ -42,6 +42,7 @@ font-size: 35px;
 color: #EF233C;
 padding: 10px;
 
+
 }
 
 .media-links > a:hover {
@@ -71,20 +72,81 @@ padding: 10px;
 }
 
 /* NAVBAR */ 
-#navbarContent > a {
+.nav-link{
 color: #050505;
+font-family: 'Homemade Apple';
+margin: 0 25px;
+-webkit-transition: all 0.5s 0s ease;
+-moz-transition: all 0.5s 0s ease;
+-o-transition: all 0.5s 0s ease;
+transition: all 0.5s 0s ease;
+}
+.nav-link:hover {
+    color: #D0D0D0;
 }
  
 /*PROFILE AND BIO SECTION*/
+#profile-pic {
+    margin-top: 40px;   
+}
 
+.pic-image {
+    border-radius: 8px;
+}
 
+.bio-section {
+    padding-top: 40px;
+}
+
+.bio-section > h2 {
+    font-family: 'Architects Daughter';
+    color: #348AA7;
+}
+
+.bio-section > p {
+    font-family: 'Architects Daughter';
+    color: #040F16;
+}
 
 
 /*FEATURED SECTION */
+
+.featured-section {
+
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-family: 'Homemade Apple';
+    color: #EF233C;
+}
+
+.mag-logos {
+        margin-bottom: 120px;
+    margin-top: 40px;
+}
+
+.card-img-top {
+
+    filter: drop-shadow(8px 8px 10px gray);
+    padding: 30px;
+}
 
 /*CONTACT FORM */
 
 .contact-section {
 
     background-color: blue;
+}
+
+
+
+/*MEDIA QUERIES */
+
+@media only screen and (max-width: 768px) {
+
+
+.featured-section > h2 {
+    font-size: 25px;
+}
+
+
 }
