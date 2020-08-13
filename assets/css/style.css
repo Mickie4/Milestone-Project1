@@ -83,10 +83,10 @@ margin: 0 25px;
 -o-transition: all 0.5s 0s ease;
 transition: all 0.5s 0s ease;
 }
+
 .nav-link:hover {
     color: #D0D0D0;
 }
-
 /*NAVBAR ENDS */
 
 /* FOOTER */
@@ -137,6 +137,50 @@ footer {
     color: #348AA7;
 }
 
+.mickie4-mobile {
+    font-size: 10px;
+    font-family: 'Homemade Apple';
+    background: linear-gradient(0deg, #F1D302 0%, #97D9E1 100%);
+    color: transparent;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+}
+
+.mickie4-mobile > a {
+    background: linear-gradient( 89.8deg,  rgba(204,156,223,1) 0.3%, rgba(155,219,245,1) 20.4%, rgba(245,183,208,1) 40.2%, rgba(250,186,98,1) 62.9%, rgba(234,238,240,1) 81.9%, rgba(250,245,171,1) 99.2% );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.mickie4-mobile > a:hover {
+    color: #348AA7;
+}
+
+.mobile-social > a {
+        font-size: 55px;
+        padding: 5px;
+        color: #348AA7;
+        transition: color 0.5s; 
+    }
+
+    .mobile-social > a:hover {
+
+        background: linear-gradient(0deg, #F1D302 0%, #97D9E1 100%);
+        color: transparent;
+        text-decoration: none;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+
+    
+/* FOOTER ENDS*/
+
+
 
  
 /*PROFILE AND BIO SECTION*/
@@ -165,23 +209,7 @@ footer {
     font-size: 19px;
     letter-spacing: 1px;
 }
-
-.mobile-social > a {
-        font-size: 55px;
-        padding: 5px;
-        color: #348AA7;
-        transition: color 0.5s; 
-    }
-
-    .mobile-social > a:hover {
-
-        background: linear-gradient(0deg, #F1D302 0%, #97D9E1 100%);
-        color: transparent;
-        text-decoration: none;
-        -webkit-background-clip: text;
-        background-clip: text;
-    }
-/* FOOTER ENDS*/
+/*PROFILE AND BIO SECTION ENDS */
 
 /*FEATURED SECTION */
 
