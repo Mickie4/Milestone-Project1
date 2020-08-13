@@ -104,6 +104,37 @@ footer {
     color: #348AA7;
     margin: 10px;
     padding: 10px;
+    transition: color 0.5s;
+}
+
+.media-icons > a:hover {
+    background: linear-gradient(0deg, #F1D302 0%, #97D9E1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.mickie4 {
+    font-family: 'Homemade Apple';
+    background: linear-gradient(0deg, #F1D302 0%, #97D9E1 100%);
+    color: transparent;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+}
+
+.mickie4 > a {
+    background: linear-gradient( 89.8deg,  rgba(204,156,223,1) 0.3%, rgba(155,219,245,1) 20.4%, rgba(245,183,208,1) 40.2%, rgba(250,186,98,1) 62.9%, rgba(234,238,240,1) 81.9%, rgba(250,245,171,1) 99.2% );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.mickie4 > a:hover {
+    color: #348AA7;
 }
 
 
@@ -115,7 +146,6 @@ footer {
 
 .pic-image {
     border-radius: 8px;
-    object-fit: cover;
 }
 
 .bio-section {
@@ -132,8 +162,26 @@ footer {
     font-family: 'Architects Daughter';
     color: #040F16;
     overflow: auto;
+    font-size: 19px;
+    letter-spacing: 1px;
 }
 
+.mobile-social > a {
+        font-size: 55px;
+        padding: 5px;
+        color: #348AA7;
+        transition: color 0.5s; 
+    }
+
+    .mobile-social > a:hover {
+
+        background: linear-gradient(0deg, #F1D302 0%, #97D9E1 100%);
+        color: transparent;
+        text-decoration: none;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+/* FOOTER ENDS*/
 
 /*FEATURED SECTION */
 
@@ -145,6 +193,11 @@ footer {
     color: #EF233C;
 }
 
+.featured-section > h2 {
+    animation: mediaAnimation 7s infinite;
+    animation-timing-function: ease-in-out;
+}
+
 .mag-logos {
         margin-bottom: 120px;
     margin-top: 40px;
@@ -154,14 +207,10 @@ footer {
 
     filter: drop-shadow(8px 8px 10px gray);
     padding: 30px;
+    
 }
 
 /*CONTACT FORM */
-
-.contact-section {
-
-    background-color: blue;
-}
 
 
 
@@ -174,5 +223,32 @@ footer {
     font-size: 25px;
 }
 
-
 }
+
+@media only screen and (max-width: 600px) {
+
+    footer {
+        border-color: transparent;
+    }
+}
+
+
+/*KEYFRAMES */
+
+@keyframes mediaAnimation {
+    0% {
+        color: #EF233C;
+    }
+
+    50% {
+        color: #F1D302;
+    }
+
+    100% {
+        color: #348AA7; 
+    }
+}
+
+
+
+
