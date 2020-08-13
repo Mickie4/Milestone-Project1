@@ -254,13 +254,63 @@ margin: 10px;
     height: 100%;
 }
 
-/*MEDIA QUERIES */
+/* ----------------------------------------PHOTO GALLERY ENDS */
+
+/*------------------------------------------ OTHER WORK SECTION */
+
+.work-background {
+    padding: 0px;
+    background: url(../images/other-background1.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 25px;
+  border-radius: 25px;
+  opacity: 0.6;
+}
+
+.work-text {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 0 55px 0 55px;
+    font-family: 'Comfortaa';
+    color: #FBFFFE;
+}
+
+.section-title {
+    margin-bottom: 15px;
+    font-family: 'Homemade Apple';
+    color: rgba(245,183,208,1);
+}
+
+.img-fluid {
+    margin-top: 55px;
+}
+
+
+
+/* ---------------------------------------------MEDIA QUERIES */
 
 @media only screen and (max-width: 768px) {
 
 
 .featured-section > h2 {
     font-size: 25px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-family: 'Homemade Apple';
+    color: rgba(245,183,208,1);
+}
+
+.section-text {
+    font-size: 15px; 
 }
 
 }
@@ -273,7 +323,7 @@ margin: 10px;
 }
 
 
-/*KEYFRAMES */
+/* ---------------------------------------------KEYFRAMES */
 
 @keyframes mediaAnimation {
     0% {
@@ -288,7 +338,6 @@ margin: 10px;
         color: #348AA7; 
     }
 }
-
 
 
 
