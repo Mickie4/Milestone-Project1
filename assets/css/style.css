@@ -4,7 +4,7 @@ body {
    background-color: #FBFFFE;
 }
 
-/* LANDING PAGE /*/
+/* -------------------------------------LANDING PAGE /*/
 .logo-wrap > H1 {
     font-family: 'Abril Fatface', cursive;
     font-size: 55px;
@@ -71,9 +71,9 @@ padding: 10px;
     background-size: cover; 
 }
 
-/* LANDING PAGE ENDS */
+/* ---------------------------LANDING PAGE ENDS */
 
-/* NAVBAR */ 
+/* ---------------------------NAVBAR */ 
 .nav-link{
 color: #050505;
 font-family: 'Homemade Apple';
@@ -87,9 +87,9 @@ transition: all 0.5s 0s ease;
 .nav-link:hover {
     color: #D0D0D0;
 }
-/*NAVBAR ENDS */
+/*------------------------NAVBAR ENDS */
 
-/* FOOTER */
+/* -----------------------FOOTER */
 
 footer {
     border-color: #348AA7;
@@ -178,12 +178,10 @@ footer {
     }
 
     
-/* FOOTER ENDS*/
+/* ----------------------------------------FOOTER ENDS*/
 
 
-
- 
-/*PROFILE AND BIO SECTION*/
+/* -----------------------------------------PROFILE AND BIO SECTION*/
 #profile-pic {
     margin-top: 40px;   
 }
@@ -209,9 +207,9 @@ footer {
     font-size: 19px;
     letter-spacing: 1px;
 }
-/*PROFILE AND BIO SECTION ENDS */
+/* ------------------------------------------PROFILE AND BIO SECTION ENDS */
 
-/*FEATURED SECTION */
+/* -------------------------------------------FEATURED SECTION */
 
 .featured-section {
 
@@ -237,10 +235,24 @@ footer {
     padding: 30px;
     
 }
+/* -----------------------------------------FEATURED SECTION ENDS */
 
-/*CONTACT FORM */
+/*------------------------------------------PHOTO GALLERY */
 
+.image-row {
+margin: 10px;
 
+}
+
+.gallery-line {
+    padding: 5px;
+}
+
+.img-item { 
+    border-radius:10px;
+    width: 100%;
+    height: 100%;
+}
 
 /*MEDIA QUERIES */
 
