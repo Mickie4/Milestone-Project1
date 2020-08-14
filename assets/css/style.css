@@ -96,6 +96,7 @@ footer {
     border-style: solid;
     border-width: 1px;
     border-radius: 40px 40px 0 0;
+    margin-bottom: 0;
 }
 
 .media-icons > a {
@@ -281,7 +282,7 @@ margin: 10px;
 }
 
 .section-title {
-    font-size: 80px;
+    font-size: 65px;
     margin-bottom: 15px;
     font-family: 'Homemade Apple';
     color: rgba(245,183,208,1);
@@ -291,8 +292,46 @@ margin: 10px;
     font-size: 25px;
 }
 
-.img-fluid {
+.rounded-circle {
     margin-top: 55px;
+    padding: 10px;
+}
+
+
+/*----------------------------------------------CONTACT FORM*/
+
+form {
+    padding: 10px;
+}
+
+.form-wrapper {
+    margin-top: 75px;
+    margin-bottom: 216px;
+}
+
+.form-group {
+    margin: 20px;
+}
+
+.col-form-label {
+    font-family: 'Homemade Apple';
+    font-size: 17px;
+}
+
+.form-control {
+    border-color: #F1D302;
+    
+}
+
+
+
+.btn {
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+color: white;
+font-weight: bold;
+font-family: 'Comfortaa';
+
 }
 
 
@@ -307,8 +346,8 @@ margin: 10px;
 }
 
 .section-title {
-    font-size: 24px;
-    margin-top: 35px;
+    font-size: 30px;
+    margin-top: 5px;
     margin-bottom: 15px;
     font-family: 'Homemade Apple';
     color: rgba(245,183,208,1);
@@ -318,13 +357,28 @@ margin: 10px;
     font-size: 17px; 
 }
 
+.rounded-circle {
+    width: 400px;
+    height: 330px; 
+    padding: 0 20px 0 20px;
 }
+
+form {
+    margin-bottom: 55px;
+}
+
+}
+
 
 @media only screen and (max-width: 600px) {
 
     footer {
         border-color: transparent;
     }
+
+    .form-wrapper {
+    margin-bottom: 0;
+}
 }
 
 
