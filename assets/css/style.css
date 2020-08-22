@@ -286,6 +286,12 @@ font-family: 'Comfortaa';
 
 .mickie4 {
     font-size: 0.7em;
+    font-family: 'Homemade Apple';
+    background: linear-gradient(0deg, #F1D302 0%, #97D9E1 100%);
+    color: transparent;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .featured-section > h2 {
