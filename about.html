@@ -1,144 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<link rel="stylesheet"
-		href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Architects+Daughter&family=Comfortaa&family=Homemade+Apple&display=swap" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-		integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Architects+Daughter&family=Comfortaa&family=Homemade+Apple&display=swap" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <link href="/assets/css/hover-min.css" rel="stylesheet">
     <link href="/assets/css/vivify.min.css" rel="stylesheet" type="text/css"/>
-	<link rel="stylesheet" href="assets/css/style.css" />
-	<title>Valentina Ferretti | Studio</title>
-</head>
-
-<body>
-	<!--Navigation Bar -->
-
-	<nav class="navbar navbar-expand-lg">
-		<a class="navbar-brand nav-logo" href="index.html"> 
-        <img src="/assets/images/logo-valentina.png" width="250" height="40" class="d-inline-block align-top" alt="logo">
-        </a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"> <span><i class="fas fa-bars fa-1x"></i></span></button>
-    
-<div class="collapse navbar-collapse" id="navbarContent">
-			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link hvr-shrink" href="about.html">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link hvr-shrink" href="portraiture.html">Portraiture</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link hvr-shrink" href="film.html">Film</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link hvr-shrink" href="other-work.html">Other Work</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link hvr-shrink" href="contact.html">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-	<!--Navigation Bar Ends -->
-
-	<!--Profile Picture and Bio section-->
-	<div class="container-fluid">
-		<div class="row">
-			<div class="vivify popInRight duration-7500 col-md-6 col-sm-12" id="profile-pic">
-				<img
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <title>Valentina Ferretti | Studio</title>
+  </head>
+  <body>
+    <!--Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand nav-logo" href="index.html" aria-label="homepage"> 
+      <img src="/assets/images/logo-valentina.png" class="d-inline-block align-top" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"> <span><i class="fas fa-bars fa-1x"></i></span></button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link hvr-shrink" href="about.html" aria-label="about page">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hvr-shrink" href="portraiture.html" aria-label="portraiture page">Portraiture</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hvr-shrink" href="film.html" aria-label="film page">Film</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hvr-shrink" href="other-work.html" aria-label="other work">Other Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hvr-shrink" href="contact.html" aria-label="contact page">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Navigation Bar Ends -->
+    <!--Profile Picture and Bio section-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="vivify popInRight duration-7500 col-md-6 col-sm-12" id="profile-pic">
+          <img
             src="/assets/images/profile-pic.png"
             class=" pic-image img-fluid"
             alt="Profile Picture"/>
         </div>
-				<div class="col-md-6 col-sm-12">
-					<div class="bio-section">
-					<h2 class="text-center vivify popInLeft duration-10500">Welcome to my studio</h2>
-						<p class="vivify popIn duration-10500">
-							First of all, thank you for visiting my website! My name is Valentina and I am a professional photographer &#10024;
-						</p>
-                        <p class="vivify popIn duration-10500">I have been working behind the lense for more than 20 years; my experience is vast and as you will see I have been featured in a number of quite renouned magazines, I believe in connecting with the person in front of me and bringing their most interesting self into the light through a photograph. 
-                        I just love what I do and I hope you enjoy the display of my work in here; I invite you to message me or call the studio so we can chat more! </p>
-                        
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-3"></div>
-				<div class="featured-section col-md-6 col-sm-12">
-					<h2 class="text-center">Proud to be featured in:</h2>
-				</div>
-			</div>
-			<div class=" mag-logos row">
-				<div class="col-md-4">
-					<img src="/assets/images/vogue-logo.png" class="hvr-hang card-img-top" alt="vogue-logo">
+        <div class="col-md-6 col-sm-12">
+          <div class="bio-section">
+            <h2 class="pb-5 text-center vivify popInLeft duration-10500">Welcome to my studio</h2>
+            <p class="vivify popIn duration-10500">
+              First of all, thank you for visiting my website! My name is Valentina and I am a professional photographer &#10024;
+            </p>
+            <p class="vivify popIn duration-10500">I have been working behind the lense for more than 20 years; my experience is vast and as you will see I have been featured in a number of quite renouned magazines, I believe in connecting with the person in front of me and bringing their most interesting self into the light through a photograph. 
+              I just love what I do and I hope you enjoy the display of my work in here; I invite you to message me or call the studio so we can chat more! 
+            </p>
+          </div>
+        </div>
       </div>
-					<div class="col-md-4">
-						<img src="/assets/images/allure-logo.png" class="hvr-hang card-img-top" alt="vogue-logo">
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="featured-section text-center col-md-12 col-sm-12">
+          <h2 class="text-center">Proud to be featured in:</h2>
+        </div>
       </div>
-						<div class="col-md-4">
-							<img src="/assets/images/elle-logo.png" class="hvr-hang card-img-top" alt="vogue-logo">
+      <div class=" mag-logos row">
+        <div class="col-md-4">
+          <img src="/assets/images/vogue-logo.png" class="hvr-hang card-img-top" alt="vogue-logo">
+        </div>
+        <div class="col-md-4">
+          <img src="/assets/images/allure-logo.png" class="hvr-hang card-img-top" alt="vogue-logo">
+        </div>
+        <div class="col-md-4">
+          <img src="/assets/images/elle-logo.png" class="hvr-hang card-img-top" alt="vogue-logo">
+        </div>
       </div>
-						</div>
-					</div>
-					<!--Profile Picture and Bio section Ends-->
-
+    </div>
+    <!--Profile Picture and Bio section Ends-->
     <!--Footer Section-->
-
     <footer>
-    <div class="container-fluid d-none d-md-block">
-    <div class="row">
-    <div class=" media-icons col-md-4">
-    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-    </div>
-    <div class="text-center col-md-4">
-    <img src="/assets/images/logo-valentina.png" width="250" height="40" class="d-inline-block align-top" alt="logo">
-    </div>
-    <div class="media-icons col-md-4 text-right">
-    <a href="#"><i class="fab fa-whatsapp"></i></a>
-    <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-    </div>
-    </div>
-    <div class="row">
-    <div class="col-md-12">
-    <p class="text-center mickie4">Copyright © 2020 Valentina Ferretti |All rights reserved | built and designed by <a href="https://michellecorrales.info/" target="_blank" class="mickie4">Mickie4</a></p>
-    </div>
-    </div>
-    </div>
-    <div class="container-fluid d-sm-none">
-    <div class="row">
-    <div class="mobile-social text-center col-sm-12">
-    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-    <a href="#"><i class="fab fa-whatsapp"></i></a>
-    <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-    </div>
-    </div>
-    <div class="row">
-    <div class="col-sm-12">
-    <p class="text-center mickie4-mobile">Copyright © 2020 Valentina Ferretti |All rights reserved | built and designed by <a href="https://michellecorrales.info/" target="_blank" class="mickie4">Mickie4</a></p>
-    </div></div>
-    </div>
-    </footer> <!--Footer Section Ends-->
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-	</script>
-</body>
-
+      <div class="container-fluid d-none d-md-block">
+        <div class="row">
+          <div class=" media-icons col-md-4">
+            <a href="https://www.instagram.com/" target="_blank" aria-label="instagram" class="p-2"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank" aria-label="twitter" class="p-2"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="col-md-4">
+            <img src="/assets/images/logo-valentina.png" class="img-fluid" alt="logo">
+          </div>
+          <div class="media-icons col-md-4 text-right">
+            <a href="tel:07889259431" aria-label="whatsapp contact" class="p-2"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank" aria-label="linkedin" class="p-2"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="text-center mickie4">Copyright © 2020 Valentina Ferretti |All rights reserved | built and designed by <a href="https://michellecorrales.info/" aria-label="Mickie page" target="_blank" class="mickie4">Mickie4</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid d-sm-none">
+        <div class="row">
+          <div class="mobile-social text-center col-sm-12">
+            <a href="https://www.instagram.com/" target="_blank" aria-label="instagram" class="p-1"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank" aria-label="twitter" class="p-1"><i class="fab fa-twitter"></i></a>
+            <a href="tel:07889259431" aria-label="whatsapp"><i class="fab fa-whatsapp" class="p-1"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank" aria-label="linkedin" class="p-1"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="text-center mickie4">Copyright © 2020 Valentina Ferretti |All rights reserved | built and designed by <a href="https://michellecorrales.info/" target="_blank" aria-label="Mickie page" class="mickie4">Mickie4</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer Section Ends-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
 </html>
