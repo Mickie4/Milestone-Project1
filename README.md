@@ -1,73 +1,67 @@
-# VALENTINA FERRETTI 
+<p align="center">
+  <img src="/assets/images/logo-valentina.png" alt="Food truck culture logo"/>
+</p>
+
+
+# Description
+*this is a fictitious person*
 
 Valentina's studio website is an eye-catching design that allows her to showcast her work and talent behing the camera lense. Valentina needed a website to create online presence and to bring in new contracts and projects.
+
+# Deployment and Demo
+
+Website has been deployed to [GitHub Pages](https://github.com/Mickie4/Milestone-Project1)
+
+
+# Wireframe
+
+The wireframe was designed using [Sketch](https://www.sketch.com/)
  
 ## UX
  
-The demographic for her website are men and women between 18-50; predominantly within the fashion, arts and marketing industries. 
-Valentina is looking to expand her demographic to more personal and business clients as well as looking to find more film work in London and abroad.
+ What makes Valentina's website special and to stand out is how clear and easy to navigate it really is, along with the way that her information adn work has been layed out it all makes a beautiful and memorable website. 
 
-What makes Valentina's website special and to stand out is how clear and easy to navigate it really is, along with the way that her information adn work has been layed out it all makes a beautiful and memorable website. 
+Landing Page: Has a video showcasting Valentina in a closeup which is responsive in all screen sizes, it gives the user an inmediate taste of the quality of her work.
 
-Here are some of the user stories we have gathered:
+About Page: Contains a small welcoming message from Valentina and it displays logos of the magazines she has been featured with in the past.
+
+Portraiture Page: It displays Valentina's work that is available for purchase, it it shows every image in a card order with the name and of the product with a button that gives the option to add to a shopping cart. When you click on the image it displays on a lightbox for the user to see it with more detail.
+
+Film Page: it shows 3 videos with their titles and location information for users to get an idea of her work.
+
+Other Work Page: it displays the other categories of photography and filming that Valentina offers at her studio. 
+
+Contact Page: It has a clean and simple contact form for users to send their questions or request directly.
+
+All pages have a footer that includes all of Valentina's Social media links and her logo.
+
+
+# User stories
 
 -	As a user I want to be able to see who Valentina has worked with in the past to verify her experience.
-
 -	As a user I need to be able to navigate the website in a simple and intuitive way.
-
 - As a user I want to be able to find Valentina's other pages such as instagram and see how many followers she has there, verify who follows her too as that could be an indication of how high up in the industry she has worked before.
-
 -	As a user I need to be able to get in contact with Valentina and to be able to find her studio and operating information. 
 
+Website Owner:
+- As a website owner I will like to showcast my work.
+- As a website owner I will like to prompt visitors to follow me on my social media
+- As a website owner I will like to recieve in an easy format any queries from potential customers.
 
 
 
-(please refer to the repository for all the PDF files that showcast the  mockups)
-
-* * *
-
-Desktop & Tablet Mockup View:
--------------
-![](desktop-gif.gif)
 
 
-Mobile View:
--------------
-![](mobile-gif.gif)
-<<<<<<< HEAD
-=======
-
->>>>>>> f4fbf4abc3661fb72206c42f7602af3243f934bd
-
-
-## Features
-
-•	The site will include an eye-catching landing page featuring links to their social media profiles and their logo.
-
-•	An “About Us” section to present a brief explanation on how the concept was thought out and what the website offers. 
-
-•	A Portraits section for visitors to get to view Valentina's work
-
-•	A film section with a clip from a project that Valentina participated in. 
-
-•	A contact form, buisness details and a map for customers to visit the studio.
-
-•   Other work page where Valentina advertises all the other kinds of photography she can do
-
-
-### Features Left to Implement
-
+# Scalability
 •	The option to change the content into a different language (Spanish)
 •	A section to register for the Newsletter
-•	A booking form
+•	An ecommerce site for selling photography.
 
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- Sketch 3 
-    - I made the mockups with this program https://www.sketch.com/
 - Boostrap 
     - I used this framework to build the website https://getbootstrap.com/
 - CSS & HTML
