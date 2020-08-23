@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/assets/images/logo-valentina.png" alt="Food truck culture logo"/>
+  <img src="assets/images/logo-valentina.png" alt="Valentina Ferretti logo"/>
 </p>
 
 
@@ -35,6 +35,15 @@ Contact Page: It has a clean and simple contact form for users to send their que
 
 All pages have a footer that includes all of Valentina's Social media links and her logo.
 
+<p align="center">
+  <img src="assets/images/ux.png" alt="Landing Page Responsive"/>
+</p>
+
+This is a quite heavy website due to the high quality resolution on both video and photography; in order to help this issue I have used [tinypng.com](https://tinypng.com/) this reduced the size by 58%.
+
+<p align="center">
+  <img src="assets/images/tinypng.png" alt="Tiny PNG "/>
+</p>
 
 # User stories
 
