@@ -249,7 +249,7 @@ font-size: 1.5rem;
 /*----------------------------------------------CONTACT FORM*/
 .col-form-label {
     font-family: 'Homemade Apple';
-    font-size: 17px;
+    font-size: 1.5em;
 }
 
 .form-control {
@@ -282,13 +282,23 @@ font-family: 'Comfortaa';
 
 .opening-times {
     font-family: 'Comfortaa';
+    font-size: 1.5em;
     
 }
 
 .opening-sign {
+    font-size: 2em;
     font-family: 'Homemade Apple';
     animation: mediaAnimation 7s infinite;
     animation-timing-function: ease-in-out;
+}
+
+.table td {
+border-color: transparent;
+}
+
+.table th {
+border-color: transparent;
 }
 
 /* ---------------------------------------------MEDIA QUERIES */
@@ -326,6 +336,14 @@ font-family: 'Comfortaa';
 .rounded-circle {
     width: 400px;
     height: 330px;
+}
+
+.opening-sign {
+    font-size: 1.5em;
+}
+
+.opening-times {
+    font-size: 0.7em;
 }
 
 }
