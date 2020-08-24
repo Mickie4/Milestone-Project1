@@ -25,13 +25,13 @@ Landing Page: Has a video showcasting Valentina in a closeup which is responsive
 
 About Page: Contains a small welcoming message from Valentina and it displays logos of the magazines she has been featured with in the past.
 
-Portraiture Page: It displays Valentina's work that is available for purchase, it it shows every image in a card order with the name and of the product with a button that gives the option to add to a shopping cart. When you click on the image it displays on a lightbox for the user to see it with more detail.
+Portraiture Page: It displays Valentina's work that is available for purchase, it it shows every image in a card order with the name and of the product with a button that gives the option to add to a shopping cart. When you click on the image it displays on a lightbox for the user to appreaciate it with more detail. Below every image there is an icon of a shopping cart and a plus sign, if they click on it it opens a modal mocking a shopping card list with the image information, price, option to add more quantity, subtotal and a button to take you to a check out page.
 
 Film Page: it shows 3 videos with their titles and location information for users to get an idea of her work.
 
 Other Work Page: it displays the other categories of photography and filming that Valentina offers at her studio. 
 
-Contact Page: It has a clean and simple contact form for users to send their questions or request directly.
+Contact Page: It has a clean and simple contact form for users to send their questions or request directly, opening hours information and a map for users to find the studio with google maps.
 
 All pages have a footer that includes all of Valentina's Social media links and her logo.
 
@@ -63,13 +63,11 @@ Website Owner:
 
 # Scalability
 •	The option to change the content into a different language (Spanish)
-•	A section to register for the Newsletter
-•	An ecommerce site for selling photography.
+•	Adding an ecommerce page for selling photography.
+•   An automatic booking system where customers can reserve slots of the day for a session.
 
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - Boostrap 
     - I used this framework to build the website https://getbootstrap.com/
