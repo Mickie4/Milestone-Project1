@@ -183,7 +183,36 @@ footer {
 
 /* -----------------------------------------FEATURED SECTION ENDS */
 
+/*------------------------------------------PHOTO GALLERY MODALS*/
+
+.modal-content {
+    font-family: 'Comfortaa'
+}
+
+.fa-plus-square {
+    color: #F1D302;
+}
+
+.fa-plus-square:hover {
+    color: black;
+    transition: ease-in-out;
+}
+.fa-minus-square {
+    color: #F1D302;
+}
+
+.fa-minus-square:hover {
+    color: black;
+    transition: ease-in-out;
+}
+
+.subtotal > p {
+    color: #F1D302;
+    font-size: 1.2em;
+}
+
 /*------------------------------------------PHOTO GALLERY */
+
 
 .img-item { 
     border-radius:10px 10px 0 0;
@@ -203,11 +232,14 @@ footer {
     font-family: 'Architects Daughter';
 }
 
+
+
 .btn-card {
 background-color: transparent;
 color: #F1D302;
 font-family: 'Architects Daughter';
 font-size: 1.5rem;
+border: none;
 }
 
 .btn-card:hover {
@@ -259,7 +291,7 @@ font-size: 1.5rem;
 
 
 
-.btn {
+.btn-send {
 border-radius: 15px;
 background-color: #FBAB7E;
 background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
@@ -269,7 +301,7 @@ font-family: 'Comfortaa';
 
 }
 
-.btn:hover {
+.btn-send:hover {
     background: linear-gradient(0deg, #F1D302 0%, #97D9E1 100%);
     transition: ease-in-out;
 }
