@@ -274,7 +274,22 @@ font-family: 'Comfortaa';
     transition: ease-in-out;
 }
 
+.table {
+    border-color: #fff;
+}
 
+/*----------------------------------------------OPENING TIMES TABLE */
+
+.opening-times {
+    font-family: 'Comfortaa';
+    
+}
+
+.opening-sign {
+    font-family: 'Homemade Apple';
+    animation: mediaAnimation 7s infinite;
+    animation-timing-function: ease-in-out;
+}
 
 /* ---------------------------------------------MEDIA QUERIES */
 
