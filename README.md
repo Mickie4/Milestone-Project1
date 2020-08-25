@@ -104,7 +104,7 @@ Webiste was tested using [GTmetrix](https://gtmetrix.com/), see the results belo
 
 # Media 
 
-As previously mentioned, all the images were downloaded from [Unsplash](https://unsplash.com/) however in here you can find every artist's community profile link and their work.
+As previously mentioned, all the images were downloaded from [Unsplash](https://unsplash.com/) however; in here you can find every artist's community profile link and their work.
 
 - [Senjuti Kundu](https://unsplash.com/@senjuti)
 - [Albert Dera](https://unsplash.com/@albertdera)
