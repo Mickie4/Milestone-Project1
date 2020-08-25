@@ -77,12 +77,19 @@ Webiste was tested using [GTmetrix](https://gtmetrix.com/), see the results belo
 </p>
 
 
+# Further Testing
+
+- All link have been tested for both internal and external pages.
+- As a user you can see that the website is about film and photography as soon as you arrive to the landing page. 
+- All the code has been tested on [W3C Validator](https://validator.w3.org/)
+- All CSS has been tested on [CSS Validator](https://jigsaw.w3.org/css-validator/)
+- As the website was being built I made sure to use [Chrome's extention "Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb)to guarantee the responsiveness of the website.
+- The contact form has been validated using the Code Institute's [Form Dump](https://formdump.codeinstitute.net/)
 
 # Scalability
 •	The option to change the content into a different language (Spanish)
 •	Adding an ecommerce page for selling photography.
 •   An automatic booking system where customers can reserve slots of the day for a session.
-
 
 ## Technologies
 
