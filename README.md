@@ -6,7 +6,7 @@
 # Description
 *this is a fictitious person*
 
-Valentina's studio website is an eye-catching design that allows her to showcast her work and talent behing the camera lense. Valentina needed a website to create online presence and to bring in new contracts and projects.
+Valentina's studio is a well knowned studio in the heart of Brick Lane; Valentina started her career as a photographer in Milan and has worked with top names in the fashion and film business over the years, she has stablised her studio in London and is ready to become more mainstream. 
 
 # Deployment and Demo
 
@@ -19,7 +19,7 @@ The wireframe was designed using [Sketch](https://www.sketch.com/)
  
 ## UX
  
- What makes Valentina's website special and to stand out is how clear and easy to navigate it really is, along with the way that her information adn work has been layed out it all makes a beautiful and memorable website. 
+ Valentina is a very easy going and hip person, I opted for a website that could reflect that aspect of her personality whilst showcasting her top class work and vast experience.
 
 Landing Page: Has a video showcasting Valentina in a closeup which is responsive in all screen sizes, it gives the user an inmediate taste of the quality of her work.
 
@@ -45,6 +45,17 @@ This is a quite heavy website due to the high quality resolution on both video a
   <img src="assets/images/tinypng.png" alt="Tiny PNG "/>
 </p>
 
+
+# Visual Identity
+
+- The logo was created by me using [Sketch](https://www.sketch.com/)
+- All the images were downloaded from [Unsplash](https://unsplash.com/
+- All the videos were downloaded from [Pexels](https://www.pexels.com/)
+- The Favicon was made by me using [Sketch](https://www.sketch.com/)
+- I used the library from [Hover.css](https://ianlunn.github.io/Hover/) for some of the effects.
+- I used the animation library from [Vivify](http://vivify.mkcreative.cz/) for some of the elements.
+- All the fonts came from [Google Fonts](https://fonts.google.com/)
+
 # User stories
 
 -	As a user I want to be able to see who Valentina has worked with in the past to verify her experience.
@@ -58,6 +69,12 @@ Website Owner:
 - As a website owner I will like to recieve in an easy format any queries from potential customers.
 
 
+# Testing
+
+Webiste was tested using [GTmetrix](https://gtmetrix.com/), see the results below:
+<p align="center">
+  <img src="assets/images/gtmetrix.png" alt="Valentina Ferretti logo"/>
+</p>
 
 
 
@@ -67,7 +84,7 @@ Website Owner:
 •   An automatic booking system where customers can reserve slots of the day for a session.
 
 
-## Technologies Used
+## Technologies
 
 - Boostrap 
     - I used this framework to build the website https://getbootstrap.com/
@@ -75,49 +92,32 @@ Website Owner:
     - Since this was an only frontend project these are the two building blocks I used.
 
 
-## Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
-## Credits
 
-### Content
-- All mock text was generated with Sketch 3
+# Media 
 
-### Media
-- All the images used for this website were downloaded from unsplash.com
+As previously mentioned, all the images were downloaded from [Unsplash](https://unsplash.com/) however in here you can find every artist's community profile link and their work.
 
-### Acknowledgements
+- [Senjuti Kundu](https://unsplash.com/@senjuti)
+- [Albert Dera](https://unsplash.com/@albertdera)
+- [Artem Labunsky](https://unsplash.com/@labunsky)
+- [Pamela Saunders](https://unsplash.com/@pamsaunders)
+- [Sarah Louise Kinsella](https://unsplash.com/@sarahlouisekinsella)
+- [Caique Silva](https://unsplash.com/@caiqueportraits)
+- [Elijah M. Henderson](https://unsplash.com/@elijahhenderson)
+- [Gabriel Silvério](https://unsplash.com/@gabrielsilverio)
+- [Cristian Newman](https://unsplash.com/@cristian_newman)
+- [Austin Wade](https://unsplash.com/@austin_wade)
+- [Harry Dona](https://unsplash.com/@harrydona)
 
-I received inspiration for these websites:
-- https://www.dropbox.design/?ref=lapaninja 
-- https://repolovers.com/?ref=lapaninja
-- https://buzzusborne.com/?ref=lapaninja
+
+
+
+# Thanks to
+- The [Bootstrap](https://getbootstrap.com/) community for creating such an amazing framework!
+- [Martin Kníže](https://github.com/Martz90) for working to create this incredible animation library that Vivify is and making it available for everyone to use.
+- [Ian Lunn](https://ianlunn.co.uk/) For creating Hover.css and making it free to use.
+- [Dudley Storey](http://thenewcode.com/) for teaching me how to use a video as a background on my landing page.
+- To the incredible team at [Lapa Ninja](https://www.lapa.ninja/) for helping me get inspiration for my own design.
+- And last but certainly not least to my awesome mentor [Felipe Souza Alarcon](https://www.linkedin.com/in/felipe-alarcon/) for always encouraging me, for his helpful and approachable demeanor and for sharing his experience and knowledge to help me.
