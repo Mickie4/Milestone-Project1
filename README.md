@@ -6,11 +6,11 @@
 # Description
 *this is a fictitious person*
 
-Valentina's studio is a well knowned studio in the heart of Brick Lane; Valentina started her career as a photographer in Milan and has worked with top names in the fashion and film business over the years, she has stablised her studio in London and is ready to become more mainstream. 
+Valentina's studio is a well knowned studio in the heart of Brick Lane; Valentina started her career as a photographer in Milan and has worked with top names in the fashion and film business over the years, she has stablised her studio in London and is ready to become more mainstream, I have made this website to serve as a portfolio/business page for her studio.
 
 # Deployment and Demo
 
-Website has been deployed to [GitHub Pages](https://github.com/Mickie4/Milestone-Project1)
+Website has been deployed [here](https://mickie4.github.io/Static-Website-Example/)using Github Pages.
 
 
 ## UX
